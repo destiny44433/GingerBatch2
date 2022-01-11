@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="a157c89b-6e13-458a-a8bd-6c63643ee887" ItemType="Solution" CreatedBy="91877" Created="202201070637" GingerVersion="3.8.0.0" Version="4" LastUpdateBy="91877" LastUpdate="202201080533" />
+<Solution Guid="a157c89b-6e13-458a-a8bd-6c63643ee887" Name="PracticeDay4Batch4" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ALMConfigs>
+<ALMConfig AlmType="QC" Guid="d3858fd0-eb76-4017-8747-fcef7d421243" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" UseRest="True" />
+<ALMConfig AlmType="Jira" DefaultAlm="True" Guid="667b39ac-facf-42fd-92b3-04474327869a" JiraTestingALM="None" ParentGuid="00000000-0000-0000-0000-000000000000" UseRest="True" />
+</ALMConfigs>
+
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyWebApp" Guid="2e3f62d8-ddde-434b-8ce6-949d4c602ca9" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+<ApplicationPlatform AppName="MyMobileApp" Description="Mobile Application" Guid="783439c6-46c3-4e90-8643-99194d633ec3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Mobile" />
+<ApplicationPlatform AppName="MyWebServicesApp" Description="WebServices Application" Guid="b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="2b51e023-813e-494a-9176-f3d2f691f286" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="d9f00725-661d-4576-b756-e8f8eda61d7d" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>

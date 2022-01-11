@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="677d9947-133b-43ac-a08a-5c1b36727bc7" ItemType="BusinessFlow" CreatedBy="91877" Created="202201070637" GingerVersion="3.8.0.0" Version="5" LastUpdateBy="91877" LastUpdate="202201080535" />
+<BusinessFlow Guid="677d9947-133b-43ac-a08a-5c1b36727bc7" Name="MobileTesting" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Web Flow" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="c2153012-3632-42da-9fea-0c3116d3b4e9" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="8086724e-de3d-4419-89a4-cbce57c2a2c9" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="f512ebdf-a007-44e1-bfa1-40629e5a454b" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="f57cfb52-dae5-4ed4-862f-a868fc298245" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="25ef757e-bb4b-4b10-90cb-c8045fa88230" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="acfe9461-33c8-469b-bfbb-2dc343c5d6f8" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="b381c203-cbbd-4b19-9952-c51ec12964f1" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6735cfd1-5b65-4361-ac7b-fb7d0547b9c8" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="bdc4b17c-4b24-427d-9778-e4bb57173dee" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="UIElement Action" Guid="81e1c9c9-c106-4780-a876-dac100e51442" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="edafdd3d-2a03-4537-84c8-2a0101a8e144" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="40d23af4-c907-4482-b4e3-69a8b0131b5d" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Mobile Flow" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="411b538c-fd39-4ff7-a6f9-42eb8e9d6a29" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyMobileApp">
+<Acts>
+<ActMobileDevice Active="True" Description="Mobile Device Action" Guid="0b5f92f2-d436-447c-9134-84e759d0f693" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="e9ac649e-84e5-4cbc-a700-50922e70f24e" Param="MobileDeviceAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SwipeLeft" />
+<ActInputValue Guid="926d9033-a131-43ed-b013-dfa85c6f9d57" Param="MobilePressKey" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Keycode_HOME" />
+<ActInputValue Guid="ab63b0c5-b966-4c95-9478-b7feaaf86d55" Param="X1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" />
+<ActInputValue Guid="f2fceaa9-974d-44f7-8449-4670c6c84f0d" Param="Y1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" />
+<ActInputValue Guid="75889b66-5b52-47a3-acef-0705f95cab91" Param="X2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" />
+<ActInputValue Guid="8759a429-7fad-4c73-a715-889a7b1daeab" Param="Y2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" />
+</InputValues>
+</ActMobileDevice>
+<ActUIElement Active="True" Description="Click : Canvas - 9&#xA;,W,X,Y,Z" Guid="d46698e1-ce3c-444f-8380-6a30d42e8432" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Mobile" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8f4c0eb1-86f1-4352-a753-1deb18a51f5f" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="e7ca1529-4a12-43bf-b62c-e02c7e673ee7" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="3dfd8531-3ab2-4da3-8397-9ba3516e3288" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="//*[@content-desc='9&#xA;,W,X,Y,Z']" />
+<ActInputValue Guid="3f196aac-4465-4329-81b4-d178a8a04b7b" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Canvas" />
+<ActInputValue Guid="f502d706-36d2-4e92-bd52-e705aeabe03b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="028a9ef0-3a82-4d25-922f-54b1a44e19ae" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="cc511104-e2af-493e-9ed7-61bbf45325b7" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c63c9583-49fe-4d9d-a4f8-fa6d52a4656b" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="374713ac-d31e-4aca-b654-6c0eeec587f2" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="SendKeysXY : Canvas - dialpad_edit_text_container" Guid="c2f1db82-5291-4bc2-a84e-7465cd4f59de" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Mobile" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="890e8846-f52b-45c8-9ade-5d7f15153d8e" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SendKeysXY" />
+<ActInputValue Guid="cc866a3c-37bd-4ca0-8b4a-32b7cc4c427d" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="e1c37864-c41b-48a1-a890-df05d0c05d1b" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/hierarchy[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]" />
+<ActInputValue Guid="954d5879-1292-4a3a-bc53-ed89738a0c60" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Canvas" />
+<ActInputValue Guid="075ab5fa-50d4-4bd6-8486-cf141b07f4c3" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="123" />
+<ActInputValue Guid="708ed09c-71f0-462b-b1ee-83dfb8a846fb" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" />
+<ActInputValue Guid="7fe96722-518f-4703-9bfd-ef6147a6eec7" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9503996e-7870-45d2-a9e0-428185f034c3" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0" />
+<ActInputValue Guid="e7115077-f203-434c-957b-de3777febe23" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ae513816-2148-48b8-94e6-0eea8e66d688" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="3ea5572c-7c98-4454-b4eb-c0e80f3ccb8c" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActScript Active="True" Description="Script Action" Guid="e4c5c85c-e874-4c29-a91c-233fd970130b" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" ScriptCommand="Script" ScriptInterpreterType="VBS" ScriptName="test1.vbs" ScriptPath="C:\Users\91877\Desktop\Automation\PracticeDay4Batch4\Documents\Scripts\" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="56ce39bd-bc35-4c17-a9e9-aaa2cbf42b1d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActScript>
+<ActExcel Active="True" Description="Excel Action" ExcelActionType="ReadData" Guid="1b6963c8-1feb-4b90-871d-a122d614a295" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c360b36f-0473-4efe-99ba-74416a845551" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9d36808b-c2da-4b50-a82e-0015dc66e17e" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="~\\Documents\Test.xlsx" />
+<ActInputValue Guid="41e396e2-ad72-4547-a588-525f5785a4eb" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Sheet1" />
+<ActInputValue Guid="8ad23e5e-707d-44c3-94c0-914d24ae39e3" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ID=1" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActExcel>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="API" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="4b52aa77-8743-48c9-94ef-b04ca48bb62a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebServicesApp">
+<Acts>
+<ActWebAPIRest Active="True" Description="WebAPI REST Action" Guid="045a83cd-6482-455c-a404-f31069beab9d" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="5422839b-0f2d-41f7-a638-b3b7599ab41b" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://reqres.in/api/users?page=2" />
+<ActInputValue Guid="dffb36e7-2225-4adc-ac2c-c505ec5f7c84" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="cec60d6b-6901-4425-842f-581539a16635" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="8555b0cb-af21-4b89-927c-5d0725719469" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="70d19d1f-4d79-4981-986a-087d27dacacb" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Default" />
+<ActInputValue Guid="6f46fef2-4b6b-4fe5-a12f-ce35630f8404" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeText" />
+<ActInputValue Guid="b3ff71a7-711a-4dae-9552-09b36d59c632" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllSSL" />
+<ActInputValue Guid="d46fdda4-c05f-4ba8-a511-b5b03bd608f9" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="25cdfc79-db29-4c1c-9726-597f033ca594" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="85784206-7a9f-499b-a7b8-ed5eda5e93e2" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="010ee103-a16f-419c-9950-31481350c548" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="f0ed4072-d493-4673-9716-f4711439d511" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="51cf9f70-1f79-4c05-a835-9b4c047eacee" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="2e98b26f-0a30-4306-b5ce-fb72c9a9bc98" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="5f5622f7-1d35-4f15-8609-974469418f63" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="None" />
+<ActInputValue Guid="abd357f4-e700-4cf5-864a-70fabb3f4281" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NoAuthentication" />
+<ActInputValue Guid="f0a7ad6a-aeb7-41c1-a0ff-48f47594e77c" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="05057681-9d27-48cb-a362-dc73780c22d9" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="f9826f02-df3e-45eb-b681-747fbf682985" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Session" />
+<ActInputValue Guid="f7dad301-5ff7-42db-90e9-e58d98daa673" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GET" />
+<ActInputValue Guid="ee3d6ad4-7dd0-4d1d-a367-ba77e3988d5d" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HTTPV11" />
+<ActInputValue Guid="5b34ac13-209c-4516-b8d6-66d2d92a112f" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="0963ae6f-9e2d-4ee0-8a2a-aa876f01f15c" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="e2bd8dec-bbe1-45fd-b70d-1a7d59e898ab" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActWebAPIRest>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="efa0cc54-7a78-4137-afe0-d8768638954b" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c2153012-3632-42da-9fea-0c3116d3b4e9" ActivityName="Web Flow" Guid="b282106e-a16e-447c-ab26-f969c11bfd5c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="411b538c-fd39-4ff7-a6f9-42eb8e9d6a29" ActivityName="Mobile Flow" Guid="df3c2e66-f999-42ed-a5b0-b348701f2c59" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="4b52aa77-8743-48c9-94ef-b04ca48bb62a" ActivityName="API" Guid="fe6afc91-7d08-44a5-9fc0-74948bc10461" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="dd48affc-b6da-4093-a6b6-30bacf14a619" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyMobileApp" Guid="77f92fa7-c5a3-4724-866b-93e65bbedb88" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyWebServicesApp" Guid="4936ae4c-99f5-42fa-9ee7-9bfaf0c6562e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

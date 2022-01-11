@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5d6c2e3f-d4f4-48bc-b38d-6ac7ac49036d" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="XwwwFormUrlEncoded" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/pet/&lt;{PETID}&gt;" Guid="5d6c2e3f-d4f4-48bc-b38d-6ac7ac49036d" Name="Updates a pet in the store with form data" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<APIModelBodyKeyValueHeaders>
+<APIModelBodyKeyValue Guid="561d672d-ebbb-4739-9983-e82d947cca71" Param="petId" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{PETID}" ValueType="Text" />
+<APIModelBodyKeyValue Guid="2e228f4d-8071-445a-86b6-f526666b1a75" Param="name" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{NAME}" ValueType="Text" />
+<APIModelBodyKeyValue Guid="0e87f455-f2d8-4056-aeef-80a905c6b17e" Param="status" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{STATUS}" ValueType="Text" />
+</APIModelBodyKeyValueHeaders>
+
+<AppModelParameters>
+<AppModelParameter Description="{petId}in url" Guid="c3ec1187-6b8b-4a70-842b-94d89621b716" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{PETID}&gt;" />
+<AppModelParameter Guid="22a7ceee-8ed3-4e6d-b285-1cd503c3a690" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="{PETID}" />
+<AppModelParameter Guid="882fbcfa-16fb-49a5-ad69-10155c522148" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="{NAME}" />
+<AppModelParameter Guid="518cfab6-2006-43f3-9704-948ca4bcefbb" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="{STATUS}" />
+</AppModelParameters>
+</ApplicationAPIModel></GingerRepositoryItem>

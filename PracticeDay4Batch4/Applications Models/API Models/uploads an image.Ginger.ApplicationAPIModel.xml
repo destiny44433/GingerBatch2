@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="19ecd653-e7fe-4f8d-867b-c1f206ae4751" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="FormData" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/pet/&lt;{PETID}&gt;/uploadImage" Guid="19ecd653-e7fe-4f8d-867b-c1f206ae4751" Name="uploads an image" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<APIModelBodyKeyValueHeaders>
+<APIModelBodyKeyValue Guid="745bbdcd-5366-4a2c-849c-589abd182179" Param="petId" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{PETID}" ValueType="Text" />
+<APIModelBodyKeyValue Guid="85a052ff-8841-44b3-9f0f-e9edd9715043" Param="additionalMetadata" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{ADDITIONALMETADATA}" ValueType="Text" />
+<APIModelBodyKeyValue Guid="26ad3f9e-e3ec-4bda-915a-bb2459decfd8" Param="file" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{FILE}" ValueType="File" />
+</APIModelBodyKeyValueHeaders>
+
+<AppModelParameters>
+<AppModelParameter Description="{petId}in url" Guid="3cb961d1-ac66-437d-8478-13dbe9f87890" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{PETID}&gt;" />
+<AppModelParameter Guid="8e3b728e-33d8-4668-be2c-921496c07922" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="{PETID}" />
+<AppModelParameter Guid="4bb0c312-d606-470f-a48d-5ad8410e9f89" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="{ADDITIONALMETADATA}" />
+<AppModelParameter Guid="30299ef5-bf30-4aa2-8b32-5232321c165d" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="{FILE}" />
+</AppModelParameters>
+</ApplicationAPIModel></GingerRepositoryItem>

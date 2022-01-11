@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="cc4bd06c-bd0d-4fa1-b86d-7ccf297d5c38" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/store/order/&lt;{ORDERID}&gt;" Guid="cc4bd06c-bd0d-4fa1-b86d-7ccf297d5c38" Name="Delete purchase order by ID" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="DELETE" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Description="{orderId}in url" Guid="c8eb6c7c-282e-421a-bc66-013aba91a57a" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{ORDERID}&gt;" />
+</AppModelParameters>
+</ApplicationAPIModel></GingerRepositoryItem>

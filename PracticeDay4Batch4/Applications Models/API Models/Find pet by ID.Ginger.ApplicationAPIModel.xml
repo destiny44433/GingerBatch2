@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="b804df8e-9f40-4e44-9b12-620397dd619e" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/pet/&lt;{PETID}&gt;" Guid="b804df8e-9f40-4e44-9b12-620397dd619e" Name="Find pet by ID" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="GET" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Description="{petId}in url" Guid="2deeca34-7567-4631-8f44-0a54029e8b94" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{PETID}&gt;" />
+</AppModelParameters>
+
+<ReturnValues>
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="1f87b2e5-2f1e-4b4d-975e-25d7fa43cc65" Operator="Legacy" Param="&lt;ID&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="id" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="55431c0f-5e4d-46a2-85cc-b3330068952e" Operator="Legacy" Param="&lt;ID1&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="category.id" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="ee27ec12-8920-4c03-a188-b08434164997" Operator="Legacy" Param="&lt;NAME&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="category.name" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="f2cd85fe-0cfc-41eb-9f89-539629f1700d" Operator="Legacy" Param="&lt;NAME1&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="name" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="c6d8e38b-be21-4820-ad98-14e4a7cb6e31" Operator="Legacy" Param="&lt;PHOTOURLS[0]&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="photoUrls[0]" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="424614e5-10c7-45fb-a3a3-977ea06724c3" Operator="Legacy" Param="&lt;ID2&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="tags[0].id" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="8e9cfdc9-4f43-41ed-9eb7-9022aaddcd1d" Operator="Legacy" Param="&lt;NAME2&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="tags[0].name" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="7f8fcd39-64f4-498b-b54d-aa0fab429a97" Operator="Legacy" Param="&lt;STATUS&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="status" StoreTo="None" />
+</ReturnValues>
+</ApplicationAPIModel></GingerRepositoryItem>

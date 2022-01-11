@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="2ee621fe-9dc1-43ac-99c5-3834901b02ba" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="XML" CookieMode="Session" Description="Body Type is XML" EndpointURL="https://petstore.swagger.io/v2/pet" Guid="2ee621fe-9dc1-43ac-99c5-3834901b02ba" Name="Add a new pet to the store-XML" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBody="&lt;Pet&gt;&#xD;&#xA;  &lt;id&gt;{ID}&lt;/id&gt;&#xD;&#xA;  &lt;category&gt;&#xD;&#xA;    &lt;id&gt;{ID1}&lt;/id&gt;&#xD;&#xA;    &lt;name&gt;{NAME}&lt;/name&gt;&#xD;&#xA;  &lt;/category&gt;&#xD;&#xA;  &lt;name&gt;{NAME1}&lt;/name&gt;&#xD;&#xA;  &lt;photoUrls /&gt;&#xD;&#xA;  &lt;tags&gt;&#xD;&#xA;    &lt;id&gt;{ID2}&lt;/id&gt;&#xD;&#xA;    &lt;name&gt;{NAME2}&lt;/name&gt;&#xD;&#xA;  &lt;/tags&gt;&#xD;&#xA;  &lt;status&gt;{STATUS}&lt;/status&gt;&#xD;&#xA;&lt;/Pet&gt;" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="XML" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Guid="cebb4b36-e220-4829-9487-d6d4d3aa0fef" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/id[1]" PlaceHolder="{ID}" TagName="id" />
+<AppModelParameter Guid="84886d00-8479-4353-b95c-bd2e34bb5ab8" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/category[1]/id[1]" PlaceHolder="{ID1}" TagName="id" />
+<AppModelParameter Guid="77502177-c9bd-49a3-bed6-77ed16943dfe" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/category[1]/name[1]" PlaceHolder="{NAME}" TagName="name" />
+<AppModelParameter Guid="6e87d904-87b3-4faa-8fd2-2c73824663f2" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/name[1]" PlaceHolder="{NAME1}" TagName="name" />
+<AppModelParameter Guid="597b117e-1f1e-400b-89db-c33860e70d0c" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/tags[1]/id[1]" PlaceHolder="{ID2}" TagName="id" />
+<AppModelParameter Guid="4b9855d6-c379-4416-82e3-79bcbd8c14b3" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/tags[1]/name[1]" PlaceHolder="{NAME2}" TagName="name" />
+<AppModelParameter Guid="2dc07e77-b37b-46d0-9210-6c49067a44e5" ParentGuid="00000000-0000-0000-0000-000000000000" Path="/Pet/status[1]" PlaceHolder="{STATUS}" TagName="status" />
+</AppModelParameters>
+</ApplicationAPIModel></GingerRepositoryItem>

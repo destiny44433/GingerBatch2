@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6df044bf-e0e0-4b2c-b7a0-f59ecb73ac50" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/store/order" Guid="6df044bf-e0e0-4b2c-b7a0-f59ecb73ac50" Name="Place an order for a pet" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBody="{&#xD;&#xA;  &quot;id&quot;: &lt;ID&gt;,&#xD;&#xA;  &quot;petId&quot;: &lt;PETID&gt;,&#xD;&#xA;  &quot;quantity&quot;: &lt;QUANTITY&gt;,&#xD;&#xA;  &quot;shipDate&quot;: &quot;&lt;SHIPDATE&gt;&quot;,&#xD;&#xA;  &quot;status&quot;: &quot;&lt;STATUS&gt;&quot;,&#xD;&#xA;  &quot;complete&quot;: &lt;COMPLETE&gt;&#xD;&#xA;}" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Guid="079beb9c-c41d-4562-9256-f2a83cec3d3c" ParentGuid="00000000-0000-0000-0000-000000000000" Path="id" PlaceHolder="&lt;ID&gt;" TagName="id" />
+<AppModelParameter Guid="2b29081c-8347-46d6-8ad2-d6eeccb23a1a" ParentGuid="00000000-0000-0000-0000-000000000000" Path="petId" PlaceHolder="&lt;PETID&gt;" TagName="petId" />
+<AppModelParameter Guid="1a413423-a3f6-4d21-bb75-0e776997e747" ParentGuid="00000000-0000-0000-0000-000000000000" Path="quantity" PlaceHolder="&lt;QUANTITY&gt;" TagName="quantity" />
+<AppModelParameter Guid="f875bbc1-a4f6-4ea0-9166-0f823727c9ec" ParentGuid="00000000-0000-0000-0000-000000000000" Path="shipDate" PlaceHolder="&lt;SHIPDATE&gt;" TagName="shipDate" />
+<AppModelParameter Guid="d0dff593-8de1-4367-ab84-3d0dcd3d91ac" ParentGuid="00000000-0000-0000-0000-000000000000" Path="status" PlaceHolder="&lt;STATUS&gt;" TagName="status" />
+<AppModelParameter Guid="8ba9d95f-98cb-45d4-94c8-b13c3d5fc696" ParentGuid="00000000-0000-0000-0000-000000000000" Path="complete" PlaceHolder="&lt;COMPLETE&gt;" TagName="complete" />
+</AppModelParameters>
+
+<ReturnValues>
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="533f7133-b843-4e13-9de1-51cb117081c7" Operator="Legacy" Param="&lt;ID&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="id" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="b5fe270e-3d58-4a6c-8a78-4ee023276008" Operator="Legacy" Param="&lt;PETID&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="petId" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="d078a103-2f19-4d14-9b6b-15eee880ca40" Operator="Legacy" Param="&lt;QUANTITY&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="quantity" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="6e619a91-e571-401f-8453-2eb8087e81fa" Operator="Legacy" Param="&lt;SHIPDATE&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="shipDate" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="70a5ebed-e70e-4bb7-8df3-a6fed0168573" Operator="Legacy" Param="&lt;STATUS&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="status" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="4eeba707-53c4-4504-9450-f416f17e2916" Operator="Legacy" Param="&lt;COMPLETE&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="complete" StoreTo="None" />
+</ReturnValues>
+</ApplicationAPIModel></GingerRepositoryItem>

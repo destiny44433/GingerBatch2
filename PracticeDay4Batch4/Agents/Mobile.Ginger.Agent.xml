@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="93458998-d588-4f59-bb8e-fc1071d4a95f" ItemType="Agent" CreatedBy="91877" Created="202201070647" GingerVersion="3.8.0.0" Version="3" LastUpdateBy="91877" LastUpdate="202201070709" />
+<Agent Active="True" AgentType="Driver" DriverType="Appium" Guid="93458998-d588-4f59-bb8e-fc1071d4a95f" Name="Mobile" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Mobile">
+<DriverConfiguration>
+<DriverConfigParam Description="Full Appium server address including port if needed, default address is: 'https://ServerIP:Port/wd/hub'" Guid="7751ca1b-9afa-4694-8b21-81dadcdfde01" Parameter="AppiumServer" ParentGuid="00000000-0000-0000-0000-000000000000" Value="http://127.0.0.1:4723/wd/hub" />
+<DriverConfigParam Description="Proxy to be used for Appium server connection, need to include the server and port" Guid="e1558819-b116-4123-9bf0-3f05a580ab9f" Parameter="Proxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Device platform type 'Android' or 'iOS'" Guid="c179eb7e-1679-4034-86d2-5dd3a7523913" Parameter="DevicePlatformType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Android" />
+<DriverConfigParam Description="The tested application type 'NativeHybride' or 'Web'" Guid="b3ecc45b-3da3-4825-82c2-70afc46e2416" Parameter="AppType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NativeHybride" />
+<DriverConfigParam Description="Determine if the Ginger device window will be loaded with the Agent" Guid="031edef5-b504-49a9-99ab-3e2eea12fa52" Parameter="LoadDeviceWindow" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Determine if the Ginger device screen image will be refresh automatically during use" Guid="27511cb4-b410-4a78-91f7-bb1dd6780635" Parameter="DeviceAutoScreenshotRefreshMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Live" />
+<DriverConfigParam Description="Determine if auto set the default capabilities based on OS and application type selection" Guid="967b4cbe-b315-4eef-9a76-e5f9945c1f8b" Parameter="AutoSetCapabilities" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Appium capabilities" Guid="e37ba318-d95d-4012-ad5d-71a1793ce69b" Parameter="AppiumCapabilities" ParentGuid="00000000-0000-0000-0000-000000000000">
+<MultiValues>
+<DriverConfigParam Description="Which mobile OS platform to use" Guid="3ca5aa79-7005-4276-bc9a-e40ce944e59c" Parameter="platformName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Android" />
+<DriverConfigParam Description="Which automation engine to use" Guid="d238675f-e899-43fb-97c2-3ad76ff395cc" Parameter="automationName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="UiAutomator2" />
+<DriverConfigParam Description="The kind of mobile device to use, for example 'Galaxy S21'" Guid="94ecb7f7-0191-4cbc-a6f9-2a43d81c8684" Parameter="deviceName" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Galaxy M31" />
+<DriverConfigParam Description="Unique device identifier of the connected physical device" Guid="95cb79d4-d89c-4365-a197-82f631b14149" Parameter="udid" ParentGuid="00000000-0000-0000-0000-000000000000" Value="RZ8R413J25A" />
+<DriverConfigParam Description="Java package of the Android app you want to run" Guid="aa9836f6-ee55-427f-bd97-a6b4bf08bd14" Parameter="appPackage" ParentGuid="00000000-0000-0000-0000-000000000000" Value="com.samsung.android.dialer" />
+<DriverConfigParam Description="Activity name for the Android activity you want to launch from your package" Guid="f82d10a8-42c9-453b-83c1-ff5d1964b97b" Parameter="appActivity" ParentGuid="00000000-0000-0000-0000-000000000000" Value="com.samsung.android.dialer.DialtactsActivity" />
+<DriverConfigParam Description="How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session" Guid="df99eeb0-a812-4800-8df4-c820f175f9e9" Parameter="newCommandTimeout" ParentGuid="00000000-0000-0000-0000-000000000000" Value="300" />
+</MultiValues>
+</DriverConfigParam>
+<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="e5adbfc0-961c-4746-9940-72f8c6b67bc1" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
+</DriverConfiguration>
+</Agent></GingerRepositoryItem>

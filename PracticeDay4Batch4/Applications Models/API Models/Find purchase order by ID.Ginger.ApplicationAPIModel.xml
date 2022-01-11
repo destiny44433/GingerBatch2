@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1a977810-5a71-47dc-b88f-30926d547b29" ItemType="ApplicationAPIModel" CreatedBy="91877" Created="202201080537" GingerVersion="3.8.0.0" Version="1" LastUpdateBy="91877" LastUpdate="202201080537" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/store/order/&lt;{ORDERID}&gt;" Guid="1a977810-5a71-47dc-b88f-30926d547b29" Name="Find purchase order by ID" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="GET" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b9790f3d-6e59-4b65-95b9-20f8d5fe47f7" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Description="{orderId}in url" Guid="bf63622f-33e8-42cc-847a-f516842f2ef2" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{ORDERID}&gt;" />
+</AppModelParameters>
+
+<ReturnValues>
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="e5e741a0-860d-449b-b7c0-d7f88f690192" Operator="Legacy" Param="&lt;ID&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="id" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="2ffd441d-5cbf-4a45-8fb1-9e2351ded4f1" Operator="Legacy" Param="&lt;PETID&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="petId" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="e05cd695-1f24-4c1b-bae3-0358afd31374" Operator="Legacy" Param="&lt;QUANTITY&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="quantity" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="9cc650ef-5e80-4c95-b805-a018a4db7b95" Operator="Legacy" Param="&lt;SHIPDATE&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="shipDate" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="7c560c2b-8949-4901-83a4-0af940fd1c95" Operator="Legacy" Param="&lt;STATUS&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="status" StoreTo="None" />
+<ActReturnValue DoNotConsiderAsTemp="True" Guid="c91ea0a0-576d-4f05-a8ff-cfcdb0d77e59" Operator="Legacy" Param="&lt;COMPLETE&gt;" ParentGuid="00000000-0000-0000-0000-000000000000" Path="complete" StoreTo="None" />
+</ReturnValues>
+</ApplicationAPIModel></GingerRepositoryItem>
